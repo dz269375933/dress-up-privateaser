@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CSS/HTML Workshop with Privateaser</title>
+    <title>Dz' Practice</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
   </head>
   <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
-    </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
+  <div id="hint">
+    <h2 id="hint_p">Price calculator</h2>
+  </div>
+  <div id="tableDiv">
+
+    <table id="tableBar">
+      <tr id="bar">
+          <td><a>Bar name</a></td>
+          <td><input class="js-name" type="text" placeholder="Bar name"/></td>
+          <td><a>Price by hour</a></td>
+          <td><input class="js-price-by-hour" type="number" placeholder="Price by hour"/></td>
+          <td><a>Price by person</a></td>
+          <td><input class="js-price-by-person" type="number" placeholder="Price by person"/></td>
+      </tr>
+      <tr id="booker">
+        <td><a>Booker name</a></td>
+        <td><input class="js-name" type="text" placeholder="Booker name"/></td>
+        <td><a>Time in h</a></td>
+        <td><input class="js-time" type="number" placeholder="Time in h"/></td>
+        <td><a>Persons</a></td>
+        <td><input class="js-persons" type="number" placeholder="Persons"/></td>
+      </tr>
+      <tr>
+        <td colspan="6" align="center"><input class="js-option" type="checkbox" placeholder="Deductible option"/>
+          <a>Deductible?</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="computeDiv">
+    <input type="image" id="compute" src="compute.png" />
+  </div>
+
     <div id="actors"></div>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>

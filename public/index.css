@@ -1,0 +1,50 @@
+#hint{
+    background-color: #0082df;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+#hint_p{
+    color: #ffffff;
+    position: relative;
+    margin:  auto;
+    top:25%;
+}
+table{
+    margin:0 auto;
+    border: 2px solid #0082df;
+}
+#tableBar{
+    height: 150px;
+}
+#tableDiv{
+    position: relative;
+    top:20px;
+}
+.tr{
+    height: 300px;
+}
+
+#computeDiv{
+    top:30px;
+    position: relative;
+    text-align: center;
+}
+#compute{
+    width: 150px;
+}
+#resultDiv{
+    top:50px;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+#resultTable{
+    word-wrap: break-word;
+    word-break: break-all;
+    width:500px;
+}
